@@ -17,7 +17,7 @@ website:    http://www.tchossy.com
 @import url('tm-utility-classes.css');
 :root {
   --theme-color1: #0f0f0f;
-  --theme-color2: #020086;
+  --theme-color2: #0401c4;
   --theme-color2-dark: #000e3b;
   --theme-color3: #f3f3f3;
   --bg-theme-color1: var(--theme-color1);
@@ -32,8 +32,8 @@ website:    http://www.tchossy.com
   --text-color-bg-theme-color2: #fff;
   --text-color-bg-theme-color3: #fff;
   --text-color-bg-theme-color4: #fff;
-  --text-color: #6a6a6a;
-  --headings-color: var(--theme-color1);
+  --text-color: #bbbbbb;
+  --headings-color: var(--text-color-bg-theme-color1);
   --link-color: var(--theme-color1);
   --link-hover-color: var(--theme-color1);
   --text-font: 'Manrope', sans-serif;
@@ -690,7 +690,8 @@ li {
   min-width: 300px;
   overflow: hidden;
   z-index: 99;
-  background-color: #ffffff;
+  background-color: var(--theme-color1);
+  background: black url(../images/background/fundo.jpg);
 }
 
 .large-container {
@@ -2546,7 +2547,7 @@ Sticky Header
   width: 100%;
   padding: 0px 0px;
   z-index: 99999;
-  background: #ffffff;
+  background: #464646;
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
 }
@@ -2587,7 +2588,7 @@ Sticky Header
 }
 
 .sticky-header .main-menu .navigation > li > a {
-  color: #707070;
+  color: #ececec;
 }
 
 .sticky-header .main-menu .navigation > li.current > a,
@@ -4509,7 +4510,7 @@ Section Title
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
   border-radius: 0 10px 10px 0;
-  background-color: #ffffff;
+  background-color: #464646;
   z-index: 1;
   opacity: 0;
   visibility: hidden;
@@ -4787,7 +4788,7 @@ Section Title
 }
 .testimonial-block .inner-box {
   position: relative;
-  background-color: #fff;
+  background-color: #323232;
   border-top: 12px solid var(--border-theme-color2);
   padding: 30px 50px 45px;
   margin-bottom: 30px;
@@ -4799,7 +4800,7 @@ Section Title
   top: 0;
   width: 138px;
   height: 96px;
-  background-color: #f3f3f3;
+  background-color: #464646;
   border-radius: 0 0 500px 0;
   content: '';
 }
@@ -5827,7 +5828,7 @@ Section Title
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #303030;
   opacity: 0.9;
   content: '';
 }
@@ -7849,7 +7850,8 @@ Section Title
   position: relative;
   padding: 120px 0 90px;
   overflow: hidden;
-  background-color: #fff;
+  background-color: #ffffff;
+  background: black url(../images/background/fundo.jpg);
 }
 .news-section .bg {
   max-height: 485px;
@@ -7912,7 +7914,7 @@ Section Title
   margin-top: -65px;
   margin-left: 30px;
   padding: 30px 40px 35px;
-  background-color: #fff;
+  background-color: #323232;
   border-radius: 10px 0 10px 10px;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
